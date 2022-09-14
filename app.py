@@ -19,7 +19,7 @@ cors=CORS(app,resources={
 
     
 try:
-    con=mysql.connector.connect(host="35.232.30.27",user="root",password="password",database="task3")
+    con=mysql.connector.connect(host="34.170.159.224",user="root",password="password",database="task3")
     con.autocommit=True
     cur = con.cursor(dictionary=True)
     print('Connection Successful')
